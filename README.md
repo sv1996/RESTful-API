@@ -37,8 +37,8 @@ Postman API Development Tool
 ```
 {
     "_id" : "5c18e1892998bdb3b3d355bf",
-    "title" : "REST",
-    "content" : "REST is short for REpresentational State Transfer. IIt's an architectural style for designing APIs."
+    "title" : "HTML",
+    "content" : "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browse."
 }
 
 
@@ -51,22 +51,23 @@ Postman API Development Tool
 
 {
     "_id" : ObjectId("5c1398aad79ac8eac11e7561"),
-    "title" : "Bootstrap",
-    "content" : "This is a framework developed by Twitter that contains pre-made front-end templates for web design"
+    "title" : "CSS",
+    "content" : "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML"
 }
 
 
 {
     "_id" : ObjectId("5c1398ecd79ac8eac11e7567"),
-    "title" : "DOM",
-    "content" : "The Document Object Model is like an API for interacting with our HTML"
+    "title" : "sql",
+    "content" : "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system"
+    
 }
 
 
 {
     "_id" : "5c18f35cde40ab6cc551cd60",
-    "title" : "Jack Bauer",
-    "content" : "Jack Bauer once stepped into quicksand. The quicksand couldn't escape and nearly drowned.",
+    "title" : "XML",
+    "content" : "Extensible Markup Language is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
     "__v" : 0
 }
 
