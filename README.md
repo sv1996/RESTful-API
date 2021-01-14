@@ -1,14 +1,10 @@
 # RESTful-API
 ## Design and Build a RESTful-API from Scratch of Wikipedia's Article
 ## Description
-
-
 ***This project is build from scratch to understand 
 the working principle of REST-API***
 
 # Table of Contents
-
-
 - Tech Stack
 - Installation
 - Database
@@ -23,7 +19,6 @@ the working principle of REST-API***
 - Node Module
 
 # Installation
-
 ```
 Express.js   version-4.17.1
 Node v15.
@@ -31,7 +26,6 @@ Mongoose Version 4.13.20
 ejs version 3.1.5*
 Postman API Development Tool
 ```
-
 # connection code
 ```
 mongoose.connect("mongodb://localhost:27017/wikiDB" , {useNewUrlParser:true});
@@ -42,11 +36,8 @@ const articleSchema = {
 };
 //create a model
 const Article = mongoose.model("Article" , articleSchema);
-
 ```
-
 # Database
-
 ```
 {
     "_id" : "5c18e1892998bdb3b3d355bf",
@@ -106,6 +97,10 @@ app.use(express.static("public"));
 1. Install all the npm package 
 2. Create database and design Collection
 3. Start the node server using node app.js mongoose server using mongod app.js
+4. Perform main function of RESTfull-API Routing GET POST PUT PATCH DELETE Action
+4. Goto localhost:3000/article (you get(GET operation) information about article In json format)
+5. To GET a specific Article [app.route("/articles/:articleTitle")]
+
 
 
 
