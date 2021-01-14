@@ -9,9 +9,8 @@ the working principle of REST-API***
 - Installation
 - Database
 - How It Works
-- Usage 
-
-# Tech Stack
+ 
+ # Tech Stack
 - Node.js
 - Express.js
 - MongoDB
