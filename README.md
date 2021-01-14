@@ -32,6 +32,19 @@ ejs version 3.1.5*
 Postman API Development Tool
 ```
 
+# connection code
+```
+mongoose.connect("mongodb://localhost:27017/wikiDB" , {useNewUrlParser:true});
+// create a schema
+const articleSchema = {
+  title:String ,
+  content:String
+};
+//create a model
+const Article = mongoose.model("Article" , articleSchema);
+
+```
+
 # Database
 
 ```
@@ -90,19 +103,6 @@ app.use(express.static("public"));
 
 ```
 
-# connection code
-```
-mongoose.connect("mongodb://localhost:27017/wikiDB" , {useNewUrlParser:true});
-// create a schema
-const articleSchema = {
-  title:String ,
-  content:String
-};
-//create a model
-const Article = mongoose.model("Article" , articleSchema);
-
-
-```
 
 
 
