@@ -71,6 +71,24 @@ Postman API Development Tool
     "__v" : 0
 }
 ```
+# Server Starting Code
+```
+const express = require("express");
+const bodyParser = require("body-parser");
+const ejs = require("ejs");
+const mongoose = require('mongoose');
+
+const app = express();
+
+app.set('view engine', 'ejs');
+
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+// for public static file
+app.use(express.static("public"));
+
+```
 
 # connection code
 ```
