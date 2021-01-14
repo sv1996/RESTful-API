@@ -102,6 +102,12 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 ```
+# How It Works
+1- Install all the npm package 
+2- Create database and design Collection
+3- Start the node server using node app.js mongoose server using mongod app.js
+
+
 
 
 
