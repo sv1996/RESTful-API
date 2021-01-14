@@ -70,6 +70,19 @@ Postman API Development Tool
     "content" : "Extensible Markup Language is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
     "__v" : 0
 }
+```
+
+# connection code
+```
+mongoose.connect("mongodb://localhost:27017/wikiDB" , {useNewUrlParser:true});
+// create a schema
+const articleSchema = {
+  title:String ,
+  content:String
+};
+//create a model
+const Article = mongoose.model("Article" , articleSchema);
+
 
 ```
 
