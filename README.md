@@ -15,6 +15,13 @@ the working principle of REST-API***
 - How It Works
 - Usage 
 
+# Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB
+- Postman
+- Node Module
 
 
  
